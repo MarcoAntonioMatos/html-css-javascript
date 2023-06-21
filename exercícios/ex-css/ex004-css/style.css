@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ /*Estilo para o conteúdo do nosso site*/
+ body,html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .artigo{
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid black;
+ }
+
+ #letter>p{
+    letter-spacing: 5px;
+    line-height: 40px;
+ }
+
+ .artigo h1{
+    color: rgb(0, 102, 255);
+    font-size: 23px;
+ }
+
+ .artigo p{
+    color:darkslategrey;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 40px;
+    
+ }
