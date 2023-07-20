@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+
+        .pai{
+            width: 600px;
+            height: 400px;
+            margin: 10px auto;
+            padding: 20px 0;
+            background-color: blue;
+        }
+
+        .child{
+            box-sizing: border-box;
+            float: left;
+            width:300px ;
+            height:200px ;
+            background-color: red;
+            border: 2px solid white;
+            font-size: 40px;
+            text-align: center;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div style="clear:both;"></div>
+    </div><!--div pai-->
+</body>
+</html>
